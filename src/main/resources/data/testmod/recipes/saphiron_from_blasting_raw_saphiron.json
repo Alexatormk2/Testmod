@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+
+  "ingredient": {
+    "item": "testmod:raw_saphiron"
+  },
+  "result": "testmod:saphiron",
+  "experience": 2.7,
+  "cookingtime": 75
+}

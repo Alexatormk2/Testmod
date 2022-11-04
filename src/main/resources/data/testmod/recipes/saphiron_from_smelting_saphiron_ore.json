@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+
+  "ingredient": {
+    "item": "testmod:saphiron_ore"
+  },
+  "result": "testmod:saphiron",
+  "experience": 2,
+  "cookingtime": 150
+}
