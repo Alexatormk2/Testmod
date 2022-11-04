@@ -1,8 +1,12 @@
 {
   "item.testmod.saphiron": "Saphiron",
   "item.testmod.raw_saphiron": "Raw_Saphiron",
+  "item.testmod.dowsing_rod": "Dowsing_rod",
 
   "block.testmod.saphiron_block": "Saphiron block",
+  "block.testmod.speedy_block": "Speedy block",
   "block.testmod.saphiron_ore": "Saphiron ore",
-  "itemGroup.testtab": "Test mod"
+  "itemGroup.testtab": "Test mod",
+
+  "item.tutorialmod.dowsing_rod.no_valuables": "No valuable ore found"
 }

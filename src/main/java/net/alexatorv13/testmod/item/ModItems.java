@@ -1,6 +1,7 @@
 package net.alexatorv13.testmod.item;
 
 import net.alexatorv13.testmod.Testmod;
+import net.alexatorv13.testmod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +18,8 @@ public static final RegistryObject<Item> SAPHIRON = ITEMS.register("saphiron",
 
     public static final RegistryObject<Item> RAW_SAPHIRON = ITEMS.register("raw_saphiron",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)) );
+    public static final RegistryObject<Item>  DOWSING_ROD = ITEMS.register("dowsing_rod",
+            ()-> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB).durability(16)) );
 
 
 public  static  void register(IEventBus eventbus){
