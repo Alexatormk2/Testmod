@@ -1,6 +1,7 @@
 package net.alexatorv13.testmod.item;
 
 import net.alexatorv13.testmod.Testmod;
+import net.alexatorv13.testmod.item.custom.CoalCokeItem;
 import net.alexatorv13.testmod.item.custom.DowsingRodItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -21,8 +22,14 @@ public static final RegistryObject<Item> SAPHIRON = ITEMS.register("saphiron",
     public static final RegistryObject<Item>  DOWSING_ROD = ITEMS.register("dowsing_rod",
             ()-> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB).durability(16)) );
 
+    public static final RegistryObject<Item>  COCA = ITEMS.register("coca",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB).food(ModFoods.COCA)) );
+    public static final RegistryObject<Item>  COAL_COKE = ITEMS.register("coal_coke",
+            ()-> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.TESTMOD_TAB)) );
 
-public  static  void register(IEventBus eventbus){
+
+
+    public  static  void register(IEventBus eventbus){
     ITEMS.register(eventbus);
 }
 }
