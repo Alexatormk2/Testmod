@@ -4,7 +4,7 @@
   "ingredient": {
     "item": "testmod:saphiron_ore"
   },
-  "result": "testmod:saphiron",
+  "result": "forge:gems/saphiron",
   "experience": 2.7,
   "cookingtime": 75
 }

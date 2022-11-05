@@ -10,5 +10,8 @@
   "block.testmod.saphiron_ore": "Saphiron ore",
   "itemGroup.testtab": "Test mod",
 
-  "item.tutorialmod.dowsing_rod.no_valuables": "No valuable ore found"
+  "item.tutorialmod.dowsing_rod.no_valuables": "Ningun ore valuable fue encontrado",
+  "tooltip.testmod.dowsing_rod.tooltip.shift": "Click derecho para buscar coordenadas de menas valiosas",
+  "tooltip.testmod.dowsing_rod.tooltip": "Pusla  §eSHIFT§r para mas info",
+  "tooltip.testmod.block.speedy_block": "Im speeeeeeeeeeeeeeeeeeeeeeeeeeeeed"
 }
